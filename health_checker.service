@@ -1,0 +1,6 @@
+[Unit]
+Description=My Health Checker Service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/alimerize/projects/health_checker.py
+# Скрипт будет запускаться раз в час 

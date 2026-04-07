@@ -16,7 +16,7 @@
 ```bash
 sudo apt update && sudo apt install nginx -y
 sudo ufw allow 'Nginx Full'
-sudo ufw enable
+sudo ufw enable```
 
 ## Настройка прав доступа (Security)
 В данном проекте реализовано разграничение прав согласно иерархии FHS:
